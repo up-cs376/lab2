@@ -22,6 +22,11 @@ char* names[NUMBER_OF_NAMES] = {
   "Peter",
 };
 
+// a (private) function to print a line of "=" characters
+static void printSeparatorLine() {
+  printf("================================================================\n");
+}
+
 // our main function
 //
 // - returns: the exit status of the program
@@ -40,9 +45,3 @@ int main(void) {
   // return with "success" status
   return EXIT_SUCCESS;
 }
-
-// a (private) function to print a line of "=" characters
-static void printSeparatorLine() {
-  printf("================================================================\n");
-}
-
