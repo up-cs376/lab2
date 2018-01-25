@@ -21,20 +21,20 @@
 // starts with 0)
 
 // the main method
-int main(int argc, char* argv[])
+int main(int argc, const char* argv[])
 {
 
   // 10 string (array of char) variables
-  char name1[] = "Billy Griffin";
-  char name2[] = "Mary Nicholas";
-  char name3[] = "Percy Smith";
-  char name4[] = "Zach Lewis";
-  char name5[] = "Amanda Kearney";
-  char name6[] = "Jill Simpson";
-  char name7[] = "Ben Booker";
-  char name8[] = "Marcus Burns";
-  char name9[] = "Peter Monroe";
-  char name10[] = "Samantha Luchterhand";
+  const char * name1 = "Billy Griffin";
+  const char * name2 = "Mary Nicholas";
+  const char * name3 = "Percy Smith";
+  const char * name4 = "Zach Lewis";
+  const char * name5 = "Amanda Kearney";
+  const char * name6 = "Jill Simpson";
+  const char * name7 = "Ben Booker";
+  const char * name8 = "Marcus Burns";
+  const char * name9 = "Peter Monroe";
+  const char * name10 = "Samantha Luchterhand";
 
   int recordNum; // the record number
   int curRecord; // index of current record
